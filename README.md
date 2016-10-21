@@ -19,6 +19,7 @@ Piccadilly wants its system to:
  - [ ] Support calculating the proper sales tax (the pizza joint located at the intersection of the four corners of the US, so you might have to support sales taxes for Colorado, Arizona, New Mexico and Utah)
  
 
+
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
 
 Please feel free to adapt the content of the data to your personal preferences or adjust your schema to support any other data types or operations you can think of. Get creative!
