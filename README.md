@@ -19,7 +19,7 @@ Piccadilly wants its system to:
  
 
 
-Quality Rubric
+## Quality Rubric
 
  - [ ]The E-R diagram is fully fleshed out according to spec.
  - [ ]The E-R diagram includes whether or not each relationship in the schema is is one to one, one to many, or many to many.
