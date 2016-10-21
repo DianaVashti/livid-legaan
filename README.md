@@ -27,3 +27,4 @@ Please feel free to adapt the content of the data to your personal preferences o
 Required
 
  The artifact produced is properly licensed, preferably with the MIT license.
+ 
