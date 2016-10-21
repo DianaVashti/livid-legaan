@@ -15,6 +15,7 @@ Piccadilly wants its system to:
  
  - [ ] Track standard drinks, including a product ID, drink description, manufacturer, supplier, price
  - [ ] Support calculating the proper sales tax (the pizza joint located at the intersection of the four corners of the US, so you might have to support sales taxes for Colorado, Arizona, New Mexico and Utah)
+ - [ ] Use flexbox to create an interface. 
  
 
 
