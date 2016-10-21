@@ -1,7 +1,7 @@
 # livid-legaan
 Pizza restaurant
 
-Specifications
+## Specifications
 
 Piccadilly wants its system to:
 
