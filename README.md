@@ -19,6 +19,20 @@ Piccadilly wants its system to:
  
 
 
+Quality Rubric
+
+ - [ ]The E-R diagram is fully fleshed out according to spec.
+ - [ ]The E-R diagram includes whether or not each relationship in the schema is is one to one, one to many, or many to many.
+ - [ ]The E-R diagram contains a list of attributes for each entity and relationship
+ - [ ]The E-R diagram contains the SQL data types of each attribute in the schema
+ - [ ]The E-R diagram notes any foreign or primary keys in each table in the schema
+ - [ ]The E-R diagram minimizes data redundancy
+ - [ ]There is a simple interface that allows one to CRUD the data in the specification (this interface can be as simple as a checkbox that "orders" a pizza by creating a DB record in one of your tables)
+ - [ ]Table names are singular, not plural
+
+
+
+
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
 
 Please feel free to adapt the content of the data to your personal preferences or adjust your schema to support any other data types or operations you can think of. Get creative!
