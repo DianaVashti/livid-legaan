@@ -1,6 +1,6 @@
 # livid-legaan
 Pizza restaurant
-
+database mock-up:https://www.draw.io/#LpizzaDataPrototype.xml
 ## Specifications
 
 Piccadilly wants its system to:
