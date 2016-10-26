@@ -8,4 +8,4 @@ CREATE TABLE product (
 );
 
 INSERT INTO product (name, price)
-  VALUES ();
+  VALUES ('Coke 12oz.',1.50),('Sprite 12oz.',1.50),('Buffalo Wings',4.5),('Kalamari Bites',4.5),('Fried Gator Bites',5.5),('Milk Gallon',6.5),('Soft Boiled Egg',2);
