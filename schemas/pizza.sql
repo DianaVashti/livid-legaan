@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS pizza;
 CREATE TABLE pizza (
   id SERIAL PRIMARY KEY,
   sauce VARCHAR,
-  size VARCHAR,
-  crust VARCHAR
+  size MONEY,
+  crust VARCHAR,
+  quantity INTEGER
 );

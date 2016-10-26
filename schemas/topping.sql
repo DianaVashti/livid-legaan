@@ -1,7 +1,5 @@
 DROP TABLE IF EXISTS topping;
 
--- \c topping;
-
 CREATE TABLE topping (
   id SERIAL PRIMARY KEY,
   name VARCHAR,

@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS product;
--- \c product;
 
 CREATE TABLE product (
-  topping_id SERIAL PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   name VARCHAR,
-  price MONEY
+  price MONEY,
+  quantity INTEGER
 );
 
 INSERT INTO product (name, price)
