@@ -9,7 +9,7 @@ Piccadilly wants its system to:
 - [ ] Track all of its customers and any relevant customer information, such as customer ID, name, username/login details, delivery address(es), phone number(s), payment methods on file (e.g., cash, credit, check - if credit, then the card number should also be stored), etc.
 - [ ] Track the ingredients that comprise each of these preferences (e.g., onions, ham, pineapple, anchovies, bacon, etc.)
 - [ ] Track its pizza sizes (small, medium, large, extra large), types (thick or thin crust), ingredients (pepperoni, sausage, mushrooms, onions, cheese, etc.), price data for these pizza sizes and ingredients.
-- [ ] Maintain a history of transactions - all purchases including price, payment method, and delivery date.
+- [ ] Maintain a history of transactions - all purchases including price.
 
 
  ## Stretch Goals
