@@ -6,15 +6,15 @@ database mock-up:https://www.draw.io/#LpizzaDataPrototype.xml
 Piccadilly wants its system to:
 
 
-- [ ] Track all of its customers and any relevant customer information, such as customer ID, name, phone number.
-- [ ] Track the ingredients that comprise each of these preferences (e.g., onions, ham, pineapple, anchovies, bacon, etc.)
-- [ ] Track its pizza sizes (small, medium, large, extra large), types (thick or thin crust), ingredients (pepperoni, sausage, mushrooms, onions, cheese, etc.), price data for these pizza sizes and ingredients.
-- [ ] Maintain a history of transactions - all purchases including price..
+- [x] Track all of its customers and any relevant customer information, such as customer ID, name, phone number.
+- [x] Track the ingredients that comprise each of these preferences (e.g., onions, ham, pineapple, anchovies, bacon, etc.)
+- [x] Track its pizza sizes (small, medium, large, extra large), types (thick or thin crust), ingredients (pepperoni, sausage, mushrooms, onions, cheese, etc.), price data for these pizza sizes and ingredients.
+- [x] Maintain a history of transactions - all purchases including price..
 
 
  ## Stretch Goals
 
- - [ ] Track standard drinks, including a product ID, drink description, manufacturer, supplier, price
+ - [x] Track standard drinks, including a product ID, drink description, manufacturer, supplier, price
  - [ ] Support calculating the proper sales tax (the pizza joint located at the intersection of the four corners of the US, so you might have to support sales taxes for Colorado, Arizona, New Mexico and Utah)
  - [ ] Use flexbox to create an interface.
 
@@ -22,14 +22,14 @@ Piccadilly wants its system to:
 
 ## Quality Rubric
 
- - [ ] The E-R diagram is fully fleshed out according to spec.
- - [ ] The E-R diagram includes whether or not each relationship in the schema is is one to one, one to many, or many to many.
- - [ ] The E-R diagram contains a list of attributes for each entity and relationship
- - [ ] The E-R diagram contains the SQL data types of each attribute in the schema
- - [ ] The E-R diagram notes any foreign or primary keys in each table in the schema
- - [ ] The E-R diagram minimizes data redundancy
+ - [x] The E-R diagram is fully fleshed out according to spec.
+ - [x] The E-R diagram includes whether or not each relationship in the schema is is one to one, one to many, or many to many.
+ - [x] The E-R diagram contains a list of attributes for each entity and relationship
+ - [x] The E-R diagram contains the SQL data types of each attribute in the schema
+ - [x] The E-R diagram notes any foreign or primary keys in each table in the schema
+ - [x] The E-R diagram minimizes data redundancy
  - [ ] There is a simple interface that allows one to CRUD the data in the specification (this interface can be as simple as a checkbox that "orders" a pizza by creating a DB record in one of your tables)
- - [ ] Table names are singular, not plural
+ - [x] Table names are singular, not plural
 
 
 
