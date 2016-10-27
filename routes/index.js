@@ -7,5 +7,10 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/api/topping', db.getAllToppings)
+router.get('/api/product', db.getAllProducts);
+router.get('/api/pizza', db.getAllPizzas);
+router.get('/api/customer', db.getAllCustomers);
+router.get('/api/cart', db.getAllCarts);
+
 
 module.exports = router;
