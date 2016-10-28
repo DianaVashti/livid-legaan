@@ -1,0 +1,32 @@
+SQL Querries:
+Get’s date when customer with name that starts with “God” ordered:
+
+SELECT date FROM cart JOIN customer ON customer.id=cart.customer_id
+WHERE customer.name LIKE 'God%'
+
+
+Get’s name of toppings from the pizza Joaquin ordered:
+
+SELECT name FROM topping JOIN pizza_topping ON topping.id=pizza_topping.topping_id
+WHERE pizza_topping.pizza_id=(SELECT pizza.id FROM pizza JOIN pizza_cart ON pizza.id=pizza_cart.pizza_id 
+WHERE pizza_cart.cart_id=
+(SELECT cart.id FROM cart JOIN customer ON customer.id=cart.customer_id WHERE customer.name='Joaquin'))
+
+
+Get’s the name of the toppings from the first pizza Godzilla ordered:
+
+SELECT name FROM topping JOIN pizza_topping ON topping.id=pizza_topping.topping_id
+WHERE pizza_topping.pizza_id=(
+SELECT pizza.id 
+FROM pizza JOIN pizza_cart 
+ON pizza_cart.pizza_id=pizza.id
+WHERE pizza_cart.cart_id =
+(SELECT cart.id FROM cart JOIN customer ON customer.id=cart.customer_id 
+WHERE customer.name='Godzilla') LIMIT 1);
+
+
+Name of all customer’s who placed orders over $1000:
+
+SELECT name FROM customer 
+JOIN cart ON customer.id=cart.customer_id
+WHERE cart.total::money::numeric::float8 > '1000.00'::money::numeric::float8;
